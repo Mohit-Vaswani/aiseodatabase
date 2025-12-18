@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Organized by category. Easy to apply.",
+    "description": "Every strategy is grouped so you can find exactly what you need.",
+    "image": "/images/feature11.png",
+    "gradient": "bg-gradient-to-b from-darkBlue-900 via-blue-700 to-blue-400",
+    "layout": "imageRight",
+    "features": [
+      "Automated financial tracking",
+      "Easy invoicing and payment reminders",
+      "Real-time access to your financial data"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Every strategy is broken down clearly",
+    "description": "Each strategy shows what works, why it works, and exactly how to implement it.",
+    "image": "/images/strategy.mov",
+    "gradient": "bg-gradient-to-b from-darkBlue-900 via-blue-700 to-blue-400",
+    "layout": "imageLeft",
+    "textColor": "text-white",
+    "features": []
+  },
+  {
+    "id": 3,
+    "title": "Learn what works and why",
+    "description": "Learn why pages rank faster, what matters most, and how AI changes SEO.",
+    "image": "/images/features55.png",
+    "gradient": "bg-gradient-to-b from-darkBlue-900 via-blue-700 to-blue-400",
+    "layout": "imageRight",
+    "textColor": "text-white",
+    "features": []
+  }
+]
