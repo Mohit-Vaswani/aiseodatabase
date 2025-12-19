@@ -1,4 +1,5 @@
 import { Check } from "lucide-react";
+import Link from "next/link";
 
 export default function PricingSection() {
   const features = [
@@ -80,9 +81,11 @@ export default function PricingSection() {
               </ul>
 
               {/* CTA */}
+              <Link target="_blank" href={'https://dub.sh/aiseodatabase'}>
               <button className="mt-10 w-full rounded-xl bg-gradient-to-r from-sky-400 to-blue-500 py-4 font-semibold text-white transition hover:opacity-90">
                 Get AI SEO Database
               </button>
+               </Link>
 
               <p className="mt-3 text-xs text-neutral-300">
                 Instant access • No subscription • Lifetime updates
