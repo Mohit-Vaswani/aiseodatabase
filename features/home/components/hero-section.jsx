@@ -8,7 +8,7 @@ import { GradientButton } from '@/components/ui';
  */
 const HeroSection = () => {
   return (
-    <div className="relative pt-24 pb-14">
+    <div id='home' className="relative pt-24 pb-14">
       <Image
         className="absolute left-1/2 top-0 transform -translate-x-1/2"
         src="/images/hero-lines.svg"
@@ -20,7 +20,7 @@ const HeroSection = () => {
         <h1 className="font-heading text-white text-center text-4xl sm:text-5xl md:text-7xl font-bold max-w-sm sm:max-w-xl md:max-w-3xl mx-auto mb-6">
           AI SEO Strategies That Actually Work
         </h1>
-        <p className="text-center text-white text-lg mb-12 w-xl flex mx-auto">
+        <p className="text-center text-white text-lg mb-12 w-auto max-w-xl flex mx-auto">
           A curated database of proven AI + SEO strategies used by builders, founders, and marketers to rank faster, grow traffic, and win in search even in the AI era.
         </p>
         <div className="mb-12 flex flex-col sm:flex-row gap-4 justify-center items-center">

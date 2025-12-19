@@ -14,11 +14,11 @@ const Header = ({ variant = 'home' }) => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
   const navItems = [
-    { href: '/', label: 'Home' },
-    { href: '/about', label: 'About' },
-    { href: '/pricing', label: 'Pricing' },
-    { href: '/blog', label: 'Blog' },
-    { href: '/contact', label: 'Contact' }
+    { href: '#home', label: 'Home' },
+    { href: '#feature', label: 'Features' },
+    { href: '#pricing', label: 'Pricing' },
+    { href: '#demo', label: 'Demo' },
+    { href: '#faq', label: 'Faq' }
   ];
 
   return (
@@ -41,8 +41,8 @@ const Header = ({ variant = 'home' }) => {
               ))}
             </div>
             <Link
-              className="hidden lg:flex items-center gap-2 text-white hover:text-blue-800 transition duration-200"
-              href="/login"
+              className="hidden lg:flex items-center gap-2 text-white hover:text-gray-300 transition duration-200"
+              href="#pricing"
             >
               <span className="text-sm font-medium">Access the database</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -88,7 +88,7 @@ const Header = ({ variant = 'home' }) => {
           <div className="text-center">
             <Link
               className="inline-flex items-center gap-2 text-black hover:text-opacity-80 transition duration-200"
-              href="/login"
+              href="#pricing"
             >
               <span className="text-sm font-medium">Access the database</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">

@@ -30,7 +30,7 @@ export default function ComparisonSection() {
   ];
 
   return (
-    <section className="bg-darkBlue-900 py-32 relative overflow-hidden">
+    <section id="feature" className="bg-darkBlue-900 py-32 relative overflow-hidden">
       {/* subtle background glow */}
       <div className="absolute inset-0 bg-gradient-to-b from-sweetBlue-500/5 to-transparent pointer-events-none" />
 

@@ -11,7 +11,7 @@ export default function PricingSection() {
   ];
 
   return (
-    <section className="bg-darkBlue-900 py-28 px-4 relative overflow-hidden">
+    <section id="pricing" className="bg-darkBlue-900 py-28 px-4 relative overflow-hidden">
       {/* background glow */}
       <div className="absolute inset-0 bg-gradient-to-b from-sweetBlue-500/10 to-transparent pointer-events-none" />
 

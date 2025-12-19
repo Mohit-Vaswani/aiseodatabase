@@ -4,7 +4,7 @@ import features from '@/data/features.json';
 const FeaturesSection = () => {
   if (!features) return null;
   return (
-    <section className="bg-darkBlue-900 py-28">
+    <section id='demo' className="bg-darkBlue-900 py-6">
       <div className="container max-w-8xl mx-auto px-4">
         <h1 className="font-heading text-white text-4xl md:text-5xl font-bold mb-4 text-center">
           Why you need this database?
@@ -29,8 +29,7 @@ const FeaturesSection = () => {
                   <div className="w-full lg:w-2/3 p-4">
                     {feature.video ? (
                       <video
-                        className="rounded-xl object-cover w-full"
-                        style={{ height: '550px' }}
+                        className="rounded-xl object-cover w-full h-[550px] max-[720px]:h-[350px]"
                         src={feature.video}
                         autoPlay
                         muted
@@ -40,8 +39,7 @@ const FeaturesSection = () => {
                       />
                     ) : (
                       <Image
-                        className="rounded-xl object-cover w-full"
-                        style={{ height: '550px' }}
+                        className="rounded-xl object-cover w-full h-[550px] max-[720px]:h-[350px]"
                         src={feature.image}
                         alt=""
                         width={800}
@@ -55,8 +53,7 @@ const FeaturesSection = () => {
                   <div className="w-full lg:w-2/3 p-4">
                     {feature.image ? (
                       <video
-                        className="rounded-xl object-cover w-full"
-                        style={{ height: '550px' }}
+                        className="rounded-xl object-cover w-full h-[550px] max-[720px]:h-[350px]"
                         src={feature.image}
                         autoPlay
                         muted
@@ -66,8 +63,7 @@ const FeaturesSection = () => {
                       />
                     ) : (
                       <Image
-                        className="rounded-xl object-cover w-auto"
-                        style={{ height: '550px' }}
+                        className="rounded-xl object-cover w-auto h-[550px] max-[720px]:h-[350px]"
                         src={feature.image}
                         alt=""
                         width={800}

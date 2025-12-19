@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap -m-4">
           <div className="w-full md:w-1/2 lg:w-2/3 p-4">
-            <div className="lg:pl-4 py-20 md:pr-8 md:border-r border-white/30 h-full">
+            {/* <div className="lg:pl-4 py-20 md:pr-8 md:border-r border-white/30 h-full">
               <p className="font-heading text-white text-xl font-semibold mb-4">Subscribe to our newsletter</p>
               <form action="">
                 <div className="rounded-full bg-white/5 border border-white/10 p-1 flex items-center max-w-sm">
@@ -32,6 +32,13 @@ const Footer = () => {
                   </button>
                 </div>
               </form>
+            </div> */}
+            <div className='lg:pl-4 py-20 md:pr-8 md:border-r border-white/30 h-full'>
+
+              <Link className="inline-block" href="/">
+                {/* <Image className="h-8" src="/images/logo-white-2.svg" alt="" width={120} height={32} /> */}
+                <h2 className='text-white text-2xl'>AI SEO Database</h2>
+              </Link>
             </div>
           </div>
           <div className="w-full md:w-1/2 lg:w-1/3 p-4">
@@ -41,17 +48,15 @@ const Footer = () => {
                   <li>
                     <p className="font-heading text-white font-semibold">Product</p>
                   </li>
-                  <li><a className="text-white hover:text-opacity-70 text-lg transition duration-200" href="#">Features</a></li>
-                  <li><a className="text-white hover:text-opacity-70 text-lg transition duration-200" href="#">How it works</a></li>
-                  <li><Link className="text-white hover:text-opacity-70 text-lg transition duration-200" href="/pricing">Pricing</Link></li>
-                  <li><a className="text-white hover:text-opacity-70 text-lg transition duration-200" href="#">FAQs</a></li>
+                  <li><a className="text-white hover:text-opacity-70 text-lg transition duration-200" href="#features">Features</a></li>
+                  <li><a className="text-white hover:text-opacity-70 text-lg transition duration-200" href="#pricing">Pricing</a></li>
+                  <li><Link className="text-white hover:text-opacity-70 text-lg transition duration-200" href="#demo">Demo</Link></li>
+                  <li><a className="text-white hover:text-opacity-70 text-lg transition duration-200" href="#faq">FAQs</a></li>
                 </ul>
                 <ul className="flex flex-col gap-6">
                   <li>
                     <p className="font-heading text-white font-semibold">Company</p>
                   </li>
-                  <li><Link className="text-white hover:text-opacity-70 text-lg transition duration-200" href="/about">About</Link></li>
-                  <li><Link className="text-white hover:text-opacity-70 text-lg transition duration-200" href="/blog">Blog</Link></li>
                   <li><Link className="text-white hover:text-opacity-70 text-lg transition duration-200" href="/contact">Contact</Link></li>
                   <li><a className="text-white hover:text-opacity-70 text-lg transition duration-200" href="#">Privacy Policy</a></li>
                 </ul>
@@ -66,15 +71,12 @@ const Footer = () => {
             <div className="w-full sm:w-1/2 lg:w-2/3 p-4">
               <div className="pl-4 py-11 pr-8 sm:border-r border-white/30 h-full">
                 <div className="flex items-center justify-between flex-wrap gap-4">
-                  <Link className="inline-block" href="/">
-                    {/* <Image className="h-8" src="/images/logo-white-2.svg" alt="" width={120} height={32} /> */}
-                    <h2 className='text-white text-2xl'>AI SEO Database</h2>
-                  </Link>
+
                   <p className="text-white">© AI SEO Database. All rights reserved.</p>
                 </div>
               </div>
             </div>
-            <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+            {/* <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="pl-8 xl:pl-28 pr-8 py-11">
                 <div className="flex flex-wrap gap-6">
                   <a className="inline-block" href="#">
@@ -91,7 +93,7 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
