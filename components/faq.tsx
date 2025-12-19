@@ -6,9 +6,9 @@ import { ChevronDown } from "lucide-react";
 export default function FAQSection() {
   const faqs = [
     {
-      question: "Is this beginner-friendly?",
+      question: "What do I really get?",
       answer:
-        "Yes. Each strategy is written in simple, step-by-step language so even beginners can follow and apply it confidently.",
+        "You get a database of AI + SEO strategies in Notion that actually works",
     },
     {
       question: "Is this updated for AI SEO?",
@@ -21,14 +21,14 @@ export default function FAQSection() {
         "Yes. Many strategies are specifically designed to rank with little to no backlinks, especially in low-competition niches.",
     },
     {
-      question: "Is this a course?",
+      question: "How often is the database updated?",
       answer:
-        "No. This is a searchable, living database — no videos, no long lessons, just actionable strategies.",
+        "We update the database every week with new strategies",
     },
     {
-      question: "Do I get future updates?",
+      question: "Can I get a refund?",
       answer:
-        "Yes. You get lifetime access, including all future strategies and updates at no extra cost.",
+        "No, its a digital product, so no refund will provided.",
     },
   ];
 
