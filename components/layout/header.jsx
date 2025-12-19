@@ -53,7 +53,7 @@ const Header = ({ variant = 'home' }) => {
               className="lg:hidden"
               onClick={() => setMobileNavOpen(!mobileNavOpen)}
             >
-              <svg width="51" height="51" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="40" height="40" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="56" height="56" rx="28" fill="white"></rect>
                 <path d="M37 32H19M37 24H19" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
               </svg>
@@ -70,7 +70,8 @@ const Header = ({ variant = 'home' }) => {
         <nav className="relative z-[9999] w-5/6 max-w-xs h-full bg-white overflow-y-auto p-8 shadow-xl">
           <div className="flex items-center justify-between">
             <Link className="inline-block" href="/">
-              <Image src="/images/logo-black-2.svg" alt="" width={120} height={40} />
+              {/* <Image src="/images/logo-black-2.svg" alt="" width={120} height={40} /> */}
+              <h2 className='text-black text-lg'>AI SEO Database</h2>
             </Link>
             <button onClick={() => setMobileNavOpen(false)}>
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

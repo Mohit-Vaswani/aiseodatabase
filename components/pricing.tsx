@@ -42,7 +42,7 @@ export default function PricingSection() {
 
           <div className="relative rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl">
             {/* Badge */}
-            <div className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-sm bg-gradient-to-r from-sky-400 to-blue-500 px-4 py-1 text-lg font-semibold text-white">
+            <div className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-sm bg-gradient-to-r from-sky-400 to-blue-500 px-4 py-1 text-sm sm:text-lg font-semibold text-white">
               Pre-Launch Offer
             </div>
 

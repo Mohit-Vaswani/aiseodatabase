@@ -58,7 +58,7 @@ const Footer = () => {
                     <p className="font-heading text-white font-semibold">Company</p>
                   </li>
                   <li><Link className="text-white hover:text-opacity-70 text-lg transition duration-200" href="/contact">Contact</Link></li>
-                  <li><a className="text-white hover:text-opacity-70 text-lg transition duration-200" href="#">Privacy Policy</a></li>
+                  <li><a className="text-white hover:text-opacity-70 text-lg transition duration-200" href="/pp">Privacy Policy</a></li>
                 </ul>
               </div>
             </div>
